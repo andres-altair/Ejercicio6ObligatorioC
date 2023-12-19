@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace Ejercicio6ObligatorioC.Servicios
 {
+    /// <summary>
+    /// interfaz encragada de los clientes
+    /// <author>amd - 19/12/23</author>
+    /// </summary>
     internal interface clienteInterfaz
     {
         /// <summary>

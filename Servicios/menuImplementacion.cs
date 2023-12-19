@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ejercicio6ObligatorioC.Servicios
 {
+    /// <summary>
+    /// implementacion que implementa a la interfaz menuInterfaz
+    /// <author>amd - 19/12/23</author>
+    /// </summary>
     internal class menuImplementacion : menuInterfaz
     {
         public int menu()

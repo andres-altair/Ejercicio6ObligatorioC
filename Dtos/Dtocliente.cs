@@ -9,7 +9,7 @@ namespace Ejercicio6ObligatorioC.Dtos
 {
     internal class Dtocliente
     {
-        long idCliente = 11111111111111;
+        long idCliente ;
         string nombreCliente = "aaaaaaaa";
         string apellidosCliente = "aaaaaaaaaa";
         string nombreCompletoCliente = "aaaaaaaaaa";
@@ -40,7 +40,7 @@ namespace Ejercicio6ObligatorioC.Dtos
             string cliente = "idCliente:  " + this.idCliente +
                 "    nombreCliente:  " + this.nombreCliente +
                 "    apellidioCliente:  " + this.apellidosCliente +
-                "    nombreCompletoCliente:  " + this.nombreCompletoCliente +
+                "    nombreCompletoCliente:  " + this.nombreCliente + this.apellidosCliente +
                 "    edad:  " +this.edad;
             return cliente; 
         }

@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ejercicio6ObligatorioC.Servicios
 {
+    /// <summary>
+    /// interfaz encargada del menu
+    /// <author>amd - 19/12/23</author>
+    /// </summary>
     internal interface menuInterfaz
     {
         /// <summary>
