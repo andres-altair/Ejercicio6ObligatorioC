@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ejercicio6ObligatorioC.Dtos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,12 +9,15 @@ namespace Ejercicio6ObligatorioC.Servicios
 {
     internal class clienteImplementacion : clienteInterfaz
     {
-        public void darAltaCliente()
+        public void darAltaCliente(List<Dtocliente>listaAntigua)
         {
             throw new NotImplementedException();
         }
+        private Dtocliente crearCliente()
+        {
 
-        public void ordenarCliente()
+        }
+        public void ordenarCliente(List<Dtocliente> listaAntigua)
         {
             throw new NotImplementedException();
         }

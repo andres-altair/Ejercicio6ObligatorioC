@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ejercicio6ObligatorioC.Dtos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,15 +10,17 @@ namespace Ejercicio6ObligatorioC.Servicios
     internal interface clienteInterfaz
     {
         /// <summary>
-        /// metodo que crea un nuevo cliente
+        /// /// metodo que crea un nuevo cliente
         /// <author>amd - 19/12/23</author>
         /// </summary>
-        public void darAltaCliente();
+        /// <param name="listaAntigua"></param>
+        public void darAltaCliente(List<Dtocliente> listaAntigua);
 
         /// <summary>
         /// metodo que ordena los cliente
         /// <author>amd - 19/12/23</author>
         /// </summary>
-        public void ordenarCliente();
+        /// <param name="listaAntigua"></param>
+        public void ordenarCliente(List<Dtocliente> listaAntigua);
     }
 }
