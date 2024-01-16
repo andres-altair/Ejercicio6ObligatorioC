@@ -48,18 +48,20 @@ namespace Ejercicio6ObligatorioC.Servicios
             }
             else
             {
-                Dtocliente dtocliente = new Dtocliente();
-                dtocliente = listaAntigua[0];   
-                int[] listaordebar (Dtocliente.e)
-                
-               for(int i = 0; i < listaAntigua.Count -1; i++)
+                //Dtocliente dtocliente = new Dtocliente();
+               //dtocliente = listaAntigua[0];               
+
+
+               for (int i = 0; i < listaAntigua.Count -1; i++)
                {
-                   for (int j = 0; listaAntigua.Count -1 -i; j++)
+                   for (int j = 0; j < listaAntigua.Count -1 -i; j++)
                    {
-                        if (dtocliente.Edad[j] > listaAntigua[j+1])
-                        int aux = dtocliente.Edad[j];
-                        dtocliente.Edad[j] = dtocliente.Edad[j+1];
-                        dtocliente.Edad[j + 1] = aux;
+                        if (listaAntigua.[j] > listaAntigua[j + 1])
+                        {
+                            int aux = listaAntigua[j];
+                            listaAntigua[j] = listaAntigua[j + 1];
+                            listaAntigua[j + 1] = aux;
+                        }
                    }
 
                }
