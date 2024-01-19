@@ -56,16 +56,14 @@ namespace Ejercicio6ObligatorioC.Servicios
                {
                    for (int j = 0; j < listaAntigua.Count -1 -i; j++)
                    {
-                        if (listaAntigua.[j] > listaAntigua[j + 1])
+                        if (listaAntigua.Edad[j] > listaAntigua[j + 1])
                         {
                             int aux = listaAntigua[j];
                             listaAntigua[j] = listaAntigua[j + 1];
                             listaAntigua[j + 1] = aux;
                         }
                    }
-
                }
-
             }
         }
     }

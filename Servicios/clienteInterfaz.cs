@@ -22,7 +22,7 @@ namespace Ejercicio6ObligatorioC.Servicios
 
         /// <summary>
         /// metodo que ordena los cliente
-        /// <author>amd - 19/12/23</author>
+        /// <author>amd - 16/01/24</author>
         /// </summary>
         /// <param name="listaAntigua"></param>
         public void ordenarCliente(List<Dtocliente> listaAntigua);
