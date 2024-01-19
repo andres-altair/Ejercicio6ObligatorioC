@@ -48,17 +48,17 @@ namespace Ejercicio6ObligatorioC.Servicios
             }
             else
             {
-                //Dtocliente dtocliente = new Dtocliente();
-               //dtocliente = listaAntigua[0];               
+                Dtocliente dtocliente = new Dtocliente();
+               // dtocliente = listaAntigua();               
 
 
                for (int i = 0; i < listaAntigua.Count -1; i++)
                {
                    for (int j = 0; j < listaAntigua.Count -1 -i; j++)
                    {
-                        if (listaAntigua.Edad[j] > listaAntigua[j + 1])
+                        if (listaAntigua[j].Edad < listaAntigua[j + 1].Edad)
                         {
-                            int aux = listaAntigua[j];
+                            Dtocliente aux = listaAntigua[j];
                             listaAntigua[j] = listaAntigua[j + 1];
                             listaAntigua[j + 1] = aux;
                         }

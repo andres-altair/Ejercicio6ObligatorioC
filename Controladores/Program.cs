@@ -23,7 +23,7 @@ namespace Ejercicio6ObligatorioC
             
             bool abrirMenu = false;
 
-            while (!false)
+            while (!abrirMenu)
             {
                 int eleccion = mi.menu();
                 switch (eleccion) 
